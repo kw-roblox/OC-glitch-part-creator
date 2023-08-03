@@ -1,0 +1,407 @@
+local crediton = false
+local ui = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local TopBar = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local pannel = Instance.new("Frame")
+local Value = Instance.new("TextBox")
+local UICorner_3 = Instance.new("UICorner")
+local Label1 = Instance.new("TextLabel")
+local scripts = Instance.new("Frame")
+local Reflect = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local text = Instance.new("TextLabel")
+local Hcontrast = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Hsaturation = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Name = Instance.new("TextLabel")
+local CreditsOpen = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Credits = Instance.new("Frame")
+local lostaccountkw_roblox = Instance.new("TextLabel")
+local context = Instance.new("TextLabel")
+local SiperStrengh35974 = Instance.new("TextLabel")
+local context_2 = Instance.new("TextLabel")
+local ex = Instance.new("TextButton")
+local Ammount = Value.Text
+local player = game.Players.LocalPlayer.Name
+
+-- Properties
+ui.Name = "gui"
+ui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ui.ResetOnSpawn = false
+ui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = ui
+MainFrame.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+MainFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MainFrame.BorderSizePixel = 0
+MainFrame.Position = UDim2.new(0.0714749843, 0, 0.123966947, 0)
+MainFrame.Size = UDim2.new(0, 393, 0, 285)
+MainFrame.Active =  true
+MainFrame.Draggable = true
+
+UICorner.Parent = MainFrame
+
+TopBar.Name = "TopBar"
+TopBar.Parent = MainFrame
+TopBar.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+TopBar.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TopBar.BorderSizePixel = 0
+TopBar.Position = UDim2.new(-0.00231638504, 0, -0.00315171573, 0)
+TopBar.Size = UDim2.new(0, 393, 0, 20)
+
+UICorner_2.Parent = TopBar
+
+TextLabel.Parent = TopBar
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(-0.122137405, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 20)
+TextLabel.Font = Enum.Font.Cartoon
+TextLabel.Text = "Version 0.1"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+pannel.Name = "pannel"
+pannel.Parent = MainFrame
+pannel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+pannel.BackgroundTransparency = 1.000
+pannel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+pannel.BorderSizePixel = 0
+pannel.Position = UDim2.new(-0.00254452927, 0, 0.189473689, 0)
+pannel.Size = UDim2.new(0, 394, 0, 189)
+
+Value.Name = "Value"
+Value.Parent = pannel
+Value.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+Value.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Value.BorderSizePixel = 0
+Value.Position = UDim2.new(0.0508906171, 0, 0.720448017, 0)
+Value.Size = UDim2.new(0, 354, 0, 38)
+Value.Font = Enum.Font.Unknown
+Value.Text = ""
+Value.TextColor3 = Color3.fromRGB(255, 255, 255)
+Value.TextSize = 14.000
+
+UICorner_3.Parent = Value
+
+Label1.Name = "Label1"
+Label1.Parent = pannel
+Label1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Label1.BackgroundTransparency = 1.000
+Label1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Label1.BorderSizePixel = 0
+Label1.Position = UDim2.new(0.0330788866, 0, 0.541402996, 0)
+Label1.Size = UDim2.new(0, 368, 0, 21)
+Label1.Font = Enum.Font.Cartoon
+Label1.Text = "Type the value of the property you want"
+Label1.TextColor3 = Color3.fromRGB(255, 255, 255)
+Label1.TextScaled = true
+Label1.TextSize = 14.000
+Label1.TextWrapped = true
+
+scripts.Name = "scripts"
+scripts.Parent = pannel
+scripts.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+scripts.BackgroundTransparency = 1.000
+scripts.BorderColor3 = Color3.fromRGB(0, 0, 0)
+scripts.BorderSizePixel = 0
+scripts.Position = UDim2.new(0.101522841, 0, 0.0529100522, 0)
+scripts.Size = UDim2.new(0, 315, 0, 90)
+
+Reflect.Name = "Reflect"
+Reflect.Parent = scripts
+Reflect.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+Reflect.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Reflect.BorderSizePixel = 0
+Reflect.Position = UDim2.new(0.00952380989, 0, 0.300000012, 0)
+Reflect.Size = UDim2.new(0, 94, 0, 26)
+Reflect.Font = Enum.Font.Cartoon
+Reflect.Text = "more than 1 reflect"
+Reflect.TextColor3 = Color3.fromRGB(255, 255, 255)
+Reflect.TextScaled = true
+Reflect.TextSize = 14.000
+Reflect.TextStrokeTransparency = 0.000
+Reflect.TextWrapped = true
+
+UICorner_4.Parent = Reflect
+
+text.Name = "text"
+text.Parent = scripts
+text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+text.BackgroundTransparency = 1.000
+text.BorderColor3 = Color3.fromRGB(0, 0, 0)
+text.BorderSizePixel = 0
+text.Size = UDim2.new(0, 315, 0, 18)
+text.Font = Enum.Font.Cartoon
+text.Text = "scripts"
+text.TextColor3 = Color3.fromRGB(255, 255, 255)
+text.TextScaled = true
+text.TextSize = 14.000
+text.TextWrapped = true
+
+Hcontrast.Name = "Hcontrast"
+Hcontrast.Parent = scripts
+Hcontrast.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+Hcontrast.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Hcontrast.BorderSizePixel = 0
+Hcontrast.Position = UDim2.new(0.355555564, 0, 0.300000012, 0)
+Hcontrast.Size = UDim2.new(0, 94, 0, 26)
+Hcontrast.Font = Enum.Font.Cartoon
+Hcontrast.Text = "Contrast"
+Hcontrast.TextColor3 = Color3.fromRGB(255, 255, 255)
+Hcontrast.TextScaled = true
+Hcontrast.TextSize = 14.000
+Hcontrast.TextStrokeTransparency = 0.000
+Hcontrast.TextWrapped = true
+
+UICorner_5.Parent = Hcontrast
+
+Hsaturation.Name = "Hsaturation"
+Hsaturation.Parent = scripts
+Hsaturation.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+Hsaturation.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Hsaturation.BorderSizePixel = 0
+Hsaturation.Position = UDim2.new(0.701587319, 0, 0.300000012, 0)
+Hsaturation.Size = UDim2.new(0, 94, 0, 26)
+Hsaturation.Font = Enum.Font.Cartoon
+Hsaturation.Text = "Saturation"
+Hsaturation.TextColor3 = Color3.fromRGB(255, 255, 255)
+Hsaturation.TextScaled = true
+Hsaturation.TextSize = 14.000
+Hsaturation.TextStrokeTransparency = 0.000
+Hsaturation.TextWrapped = true
+
+UICorner_6.Parent = Hsaturation
+
+Name.Name = "Name"
+Name.Parent = MainFrame
+Name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Name.BackgroundTransparency = 1.000
+Name.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Name.BorderSizePixel = 0
+Name.Position = UDim2.new(0.0305343512, 0, 0.0813559815, 0)
+Name.Size = UDim2.new(0, 368, 0, 31)
+Name.Font = Enum.Font.Cartoon
+Name.Text = "glitched parts creator HUD"
+Name.TextColor3 = Color3.fromRGB(255, 255, 255)
+Name.TextScaled = true
+Name.TextSize = 14.000
+Name.TextWrapped = true
+
+CreditsOpen.Name = "CreditsOpen"
+CreditsOpen.Parent = MainFrame
+CreditsOpen.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+CreditsOpen.BorderColor3 = Color3.fromRGB(253, 253, 253)
+CreditsOpen.BorderSizePixel = 0
+CreditsOpen.Position = UDim2.new(0.0483460575, 0, 0.877192974, 0)
+CreditsOpen.Size = UDim2.new(0, 140, 0, 25)
+CreditsOpen.Font = Enum.Font.Cartoon
+CreditsOpen.Text = "Open Credits"
+CreditsOpen.TextColor3 = Color3.fromRGB(255, 255, 255)
+CreditsOpen.TextScaled = true
+CreditsOpen.TextSize = 14.000
+CreditsOpen.TextStrokeTransparency = 0.000
+CreditsOpen.TextWrapped = true
+
+UICorner_7.Parent = CreditsOpen
+
+Credits.Name = "Credits"
+Credits.Parent = MainFrame
+Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits.BackgroundTransparency = 1.000
+Credits.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Credits.BorderSizePixel = 0
+Credits.Position = UDim2.new(-0.00254452927, 0, 0.189473689, 0)
+Credits.Size = UDim2.new(0, 394, 0, 189)
+Credits.Visible = false
+
+lostaccountkw_roblox.Name = "lostaccountkw_roblox"
+lostaccountkw_roblox.Parent = Credits
+lostaccountkw_roblox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+lostaccountkw_roblox.BackgroundTransparency = 1.000
+lostaccountkw_roblox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+lostaccountkw_roblox.BorderSizePixel = 0
+lostaccountkw_roblox.Position = UDim2.new(0.0330723785, 0, 0.144848049, 0)
+lostaccountkw_roblox.Size = UDim2.new(0, 368, 0, 31)
+lostaccountkw_roblox.Font = Enum.Font.Cartoon
+lostaccountkw_roblox.Text = "lostaccountkw_roblox"
+lostaccountkw_roblox.TextColor3 = Color3.fromRGB(255, 255, 255)
+lostaccountkw_roblox.TextScaled = true
+lostaccountkw_roblox.TextSize = 14.000
+lostaccountkw_roblox.TextWrapped = true
+
+context.Name = "context"
+context.Parent = lostaccountkw_roblox
+context.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+context.BackgroundTransparency = 1.000
+context.BorderColor3 = Color3.fromRGB(0, 0, 0)
+context.BorderSizePixel = 0
+context.Position = UDim2.new(-0.00225365674, 0, 0.985093653, 0)
+context.Size = UDim2.new(0, 368, 0, 17)
+context.Font = Enum.Font.Cartoon
+context.Text = "Owner - gui maker and reflect script creator"
+context.TextColor3 = Color3.fromRGB(255, 255, 255)
+context.TextScaled = true
+context.TextSize = 14.000
+context.TextWrapped = true
+
+SiperStrengh35974.Name = "SiperStrengh35974"
+SiperStrengh35974.Parent = Credits
+SiperStrengh35974.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SiperStrengh35974.BackgroundTransparency = 1.000
+SiperStrengh35974.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SiperStrengh35974.BorderSizePixel = 0
+SiperStrengh35974.Position = UDim2.new(0.0330723785, 0, 0.462308377, 0)
+SiperStrengh35974.Size = UDim2.new(0, 368, 0, 31)
+SiperStrengh35974.Font = Enum.Font.Cartoon
+SiperStrengh35974.Text = "SiperStrengh35974"
+SiperStrengh35974.TextColor3 = Color3.fromRGB(255, 255, 255)
+SiperStrengh35974.TextScaled = true
+SiperStrengh35974.TextSize = 14.000
+SiperStrengh35974.TextWrapped = true
+
+context_2.Name = "context"
+context_2.Parent = SiperStrengh35974
+context_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+context_2.BackgroundTransparency = 1.000
+context_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+context_2.BorderSizePixel = 0
+context_2.Position = UDim2.new(-0.00225365674, 0, 0.985093653, 0)
+context_2.Size = UDim2.new(0, 368, 0, 17)
+context_2.Font = Enum.Font.Cartoon
+context_2.Text = "Co-owner - made the other scripts"
+context_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+context_2.TextScaled = true
+context_2.TextSize = 14.000
+context_2.TextWrapped = true
+
+ex.Name = "ex"
+ex.Parent = game.StarterGui.e.MainFrame.TopBar
+ex.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ex.BackgroundTransparency = 1.000
+ex.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ex.BorderSizePixel = 0
+ex.Position = UDim2.new(0.936386764, 0, 0, 0)
+ex.Size = UDim2.new(0, 25, 0, 20)
+ex.Font = Enum.Font.Ubuntu
+ex.Text = "X"
+ex.TextColor3 = Color3.fromRGB(255, 255, 255)
+ex.TextScaled = true
+ex.TextSize = 14.000
+ex.TextStrokeTransparency = 0.000
+ex.TextWrapped = true
+
+--Functions
+local function reflect()
+	
+	local args = {
+		[1] = {
+			[1] = workspace.Obbies.player.Items.Parts.Part  
+		},
+		[2] = "Reflectance",
+		[3] =  Ammount
+	}
+
+	game:GetService("ReplicatedStorage").Events.PaintObject:InvokeServer(unpack(args))
+end
+
+local function changeproperty()
+	local args = {
+		[1] = {
+			[1] = workspace.Obbies.player.Items.Parts["Advanced Tools Part"]  --delete the <> once u replace it with ur username
+		},
+		[2] = "ATT", --Use SimplySpy to find the word for the property
+		[3] = "Skybox" --delete the <> once u replace it with ur number
+	}
+
+	game:GetService("ReplicatedStorage").Event.BehaviourObject:InvokeServer(unpack(args))
+end
+
+local function contrastchange()
+	local args = {
+		[1] = {
+			[1] = workspace.Obbies.player.Items.Parts["Advanced Tools Part"]  --delete the <> once u replace it with ur username
+		},
+		[2] = "ATT", --Use SimplySpy to find the word for the property
+		[3] = "ColorContrast" --delete the <> once u replace it with ur number
+	}
+
+	game:GetService("ReplicatedStorage").Event.BehaviourObject:InvokeServer(unpack(args))
+end
+
+local function valueATT()
+	local args = {
+		[1] = {
+			[1] = workspace.Obbies.player.Items.Parts["Advanced Tools Part"]  
+		},
+		[2] = "DefaultNumberValue", 
+		[3] = Ammount  --delete the <> once u replace it with ur number
+	}
+
+	game:GetService("ReplicatedStorage").Event.BehaviourObject:InvokeServer(unpack(args))
+end
+
+local function saturationchange()
+	local args = {
+		[1] = {
+			[1] = workspace.Obbies.player.Items.Parts["Advanced Tools Part"]  --delete the <> once u replace it with ur username
+		},
+		[2] = "ATT", --Use SimplySpy to find the word for the property
+		[3] = "ColorSaturation" --delete the <> once u replace it with ur number
+	}
+
+	game:GetService("ReplicatedStorage").Event.BehaviourObject:InvokeServer(unpack(args))
+end
+
+--Scripts
+
+Reflect.MouseButton1Click:Connect(function()
+	reflect()
+	print("Changed")
+end)
+
+Hcontrast.MouseButton1Click:Connect(function()
+	changeproperty()
+	wait()
+	valueATT()
+	wait()
+	contrastchange()
+	print("Changed")
+end)
+
+Hsaturation.MouseButton1Click:Connect(function()
+	changeproperty()
+	wait()
+	valueATT()
+	wait()
+	saturationchange()
+	print("Changed")
+end)
+
+CreditsOpen.MouseButton1Click:Connect(function()
+	if crediton == false then
+		pannel.Visible = true
+		Credits.Visible = false
+		CreditsOpen.Text = "Close Credits"
+		crediton = true
+	else
+		pannel.Visible = false
+		Credits.Visible = true
+		CreditsOpen.Text = "Open Credits"
+		crediton = false
+	end
+end)
+
+ex.MouseButton1Click:Connect(function()
+	ui:Destroy()
+end)
